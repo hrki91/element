@@ -44,18 +44,18 @@ export default {
         sat: 'Sub'
       },
       months: {
-        jan: 'Jan',
-        feb: 'Feb',
-        mar: 'Mar',
-        apr: 'Apr',
-        may: 'May',
-        jun: 'Jun',
-        jul: 'Jul',
-        aug: 'Aug',
-        sep: 'Sep',
-        oct: 'Oct',
-        nov: 'Nov',
-        dec: 'Dec'
+        jan: 'Sij',
+        feb: 'Vlj',
+        mar: 'Ožu',
+        apr: 'Tra',
+        may: 'Svi',
+        jun: 'Lip',
+        jul: 'Srp',
+        aug: 'Kol',
+        sep: 'Ruj',
+        oct: 'Lis',
+        nov: 'Stu',
+        dec: 'Pro'
       }
     },
     select: {
@@ -101,20 +101,20 @@ export default {
     transfer: {
       noMatch: 'Nema pronađenih podataka',
       noData: 'Nema podataka',
-      titles: ['Lista 1', 'Lista 2'], // to be translated
-      filterPlaceholder: 'Unesite ključnu riječ', // to be translated
-      noCheckedFormat: '{total} stavki', // to be translated
-      hasCheckedFormat: '{checked}/{total} checked' // to be translated
+      titles: ['Lista 1', 'Lista 2'],
+      filterPlaceholder: 'Unesite ključnu riječ',
+      noCheckedFormat: '{total} stavki',
+      hasCheckedFormat: '{checked}/{total} označeno'
     },
     image: {
-      error: 'FAILED' // to be translated
+      error: 'GREŠKA'
     },
     pageHeader: {
-      title: 'Back' // to be translated
+      title: 'Nazad'
     },
     popconfirm: {
-      confirmButtonText: 'Yes', // to be translated
-      cancelButtonText: 'No' // to be translated
+      confirmButtonText: 'Da',
+      cancelButtonText: 'Ne'
     },
     empty: {
       description: 'Nema podataka'
